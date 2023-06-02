@@ -285,6 +285,12 @@ variable "cloudwatch_target_arns" {
   default     = []
 }
 
+variable "pipeline_arn" {
+  description = "pipline arn"
+  type        = string
+  default     = ""
+}
+
 ##########################
 # Various custom policies
 ##########################
